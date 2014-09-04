@@ -3721,9 +3721,7 @@ YUI.Env.parseUA = function(subUA) {
                     }
                 }
                 if (/ Android/.test(ua)) {
-                    if (/Mobile/.test(ua)) {
-                        o.mobile = 'Android';
-                    }
+                    o.mobile = 'Android';
                     m = ua.match(/Android ([^\s]*);/);
                     if (m && m[1]) {
                         o.android = numberify(m[1]);
@@ -4951,7 +4949,7 @@ YUI.add('loader-base', function (Y, NAME) {
         BUILD = '/build/',
         ROOT = VERSION + '/',
         CDN_BASE = Y.Env.base,
-        GALLERY_VERSION = 'gallery-2014.06.12-21-45',
+        GALLERY_VERSION = 'gallery-2014.07.31-18-26',
         TNT = '2in3',
         TNT_VERSION = '4',
         YUI2_VERSION = '2.9.0',
