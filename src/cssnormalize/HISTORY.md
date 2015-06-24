@@ -6,6 +6,16 @@ CSS Normalize Change History
 
 * No changes.
 
+3.18.1
+------
+
+* No changes.
+
+3.18.0
+------
+
+* No changes.
+
 3.17.2
 ------
 
